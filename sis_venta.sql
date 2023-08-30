@@ -42,7 +42,7 @@ CREATE TABLE `cliente` (
 
 INSERT INTO `cliente` (`idcliente`, `nombre`, `telefono`, `direccion`, `usuario_id`, `estado`) VALUES
 (1, 'Público en General', '8296826298', 'S/D', 1, 1),
-(2, 'Angel sifuentes flores', '2147483647', 'Lima - Huari', 1, 1);
+(2, 'Geovanni Lopez', '78739116', 'Managua ', 1, 1);
 
 -- --------------------------------------------------------
 
@@ -63,7 +63,7 @@ CREATE TABLE `configuracion` (
 --
 
 INSERT INTO `configuracion` (`id`, `nombre`, `telefono`, `email`, `direccion`) VALUES
-(1, 'Vida Informático', '925491523', 'angelsifuentes2580@gamil.com', 'Lima');
+(1, 'Geovanni', '78739116', 'geovannysamuel97@gamil.com','managua');
 
 -- --------------------------------------------------------
 
@@ -195,8 +195,7 @@ CREATE TABLE `usuario` (
 --
 
 INSERT INTO `usuario` (`idusuario`, `nombre`, `correo`, `usuario`, `clave`, `estado`) VALUES
-(1, 'angel sifuentes', 'angelsifuentes2580@gmail.com', 'admin', '21232f297a57a5a743894a0e4a801fc3', 1),
-(2, 'Vida informatico', 'angel@gmail.com', 'angel', 'f4f068e71e0d87bf0ad51e6214ab84e9', 1);
+(1, 'Geovanni Lopez', 'geovannysamue97@gmail.com', 'admin', 'admin', 1);
 
 -- --------------------------------------------------------
 
